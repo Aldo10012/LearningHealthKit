@@ -17,6 +17,7 @@
 		6398528F280F62B8005E4096 /* HKRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398528E280F62B8005E4096 /* HKRepository.swift */; };
 		63985291280F681A005E4096 /* Date-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985290280F681A005E4096 /* Date-ext.swift */; };
 		63985293280F74FA005E4096 /* HealthType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985292280F74FA005E4096 /* HealthType.swift */; };
+		63985295280F7647005E4096 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985294280F7647005E4096 /* ChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		6398528E280F62B8005E4096 /* HKRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKRepository.swift; sourceTree = "<group>"; };
 		63985290280F681A005E4096 /* Date-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date-ext.swift"; sourceTree = "<group>"; };
 		63985292280F74FA005E4096 /* HealthType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthType.swift; sourceTree = "<group>"; };
+		63985294280F7647005E4096 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				63985273280F5A01005E4096 /* ContentView.swift */,
+				63985294280F7647005E4096 /* ChartView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				63985293280F74FA005E4096 /* HealthType.swift in Sources */,
 				63985272280F5A01005E4096 /* LearningHealthKitApp.swift in Sources */,
 				63985291280F681A005E4096 /* Date-ext.swift in Sources */,
+				63985295280F7647005E4096 /* ChartView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
