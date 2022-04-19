@@ -16,6 +16,7 @@
 		6398528D280F6159005E4096 /* HealthStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398528C280F6159005E4096 /* HealthStat.swift */; };
 		6398528F280F62B8005E4096 /* HKRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6398528E280F62B8005E4096 /* HKRepository.swift */; };
 		63985291280F681A005E4096 /* Date-ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985290280F681A005E4096 /* Date-ext.swift */; };
+		63985293280F74FA005E4096 /* HealthType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985292280F74FA005E4096 /* HealthType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		6398528C280F6159005E4096 /* HealthStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthStat.swift; sourceTree = "<group>"; };
 		6398528E280F62B8005E4096 /* HKRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HKRepository.swift; sourceTree = "<group>"; };
 		63985290280F681A005E4096 /* Date-ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date-ext.swift"; sourceTree = "<group>"; };
+		63985292280F74FA005E4096 /* HealthType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				6398528E280F62B8005E4096 /* HKRepository.swift */,
+				63985292280F74FA005E4096 /* HealthType.swift */,
 				63985290280F681A005E4096 /* Date-ext.swift */,
 			);
 			path = Helpers;
@@ -217,6 +220,7 @@
 				6398528D280F6159005E4096 /* HealthStat.swift in Sources */,
 				63985274280F5A01005E4096 /* ContentView.swift in Sources */,
 				6398528F280F62B8005E4096 /* HKRepository.swift in Sources */,
+				63985293280F74FA005E4096 /* HealthType.swift in Sources */,
 				63985272280F5A01005E4096 /* LearningHealthKitApp.swift in Sources */,
 				63985291280F681A005E4096 /* Date-ext.swift in Sources */,
 			);
