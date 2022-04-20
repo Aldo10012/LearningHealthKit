@@ -19,6 +19,7 @@
 		63985293280F74FA005E4096 /* HealthType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985292280F74FA005E4096 /* HealthType.swift */; };
 		63985295280F7647005E4096 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985294280F7647005E4096 /* ChartView.swift */; };
 		63985297280F8834005E4096 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985296280F8834005E4096 /* DetailViewModel.swift */; };
+		63985299280F8B1C005E4096 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63985298280F8B1C005E4096 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		63985292280F74FA005E4096 /* HealthType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthType.swift; sourceTree = "<group>"; };
 		63985294280F7647005E4096 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		63985296280F8834005E4096 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		63985298280F8B1C005E4096 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				63985273280F5A01005E4096 /* ContentView.swift */,
+				63985298280F8B1C005E4096 /* DetailView.swift */,
 				63985294280F7647005E4096 /* ChartView.swift */,
 			);
 			path = Views;
@@ -225,6 +228,7 @@
 				6398528B280F5FA4005E4096 /* Activity.swift in Sources */,
 				6398528D280F6159005E4096 /* HealthStat.swift in Sources */,
 				63985274280F5A01005E4096 /* ContentView.swift in Sources */,
+				63985299280F8B1C005E4096 /* DetailView.swift in Sources */,
 				6398528F280F62B8005E4096 /* HKRepository.swift in Sources */,
 				63985297280F8834005E4096 /* DetailViewModel.swift in Sources */,
 				63985293280F74FA005E4096 /* HealthType.swift in Sources */,

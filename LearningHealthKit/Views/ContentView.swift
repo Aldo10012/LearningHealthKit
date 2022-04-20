@@ -25,7 +25,9 @@ struct ContentView: View {
             ScrollView(.vertical, showsIndicators: false) {
                 LazyVGrid(columns: items,  spacing: 2) {
                     ForEach(Activity.allActivities(), id: \.id) { activity in
-                        NavigationLink(destination: Text(activity.name)) {
+                        NavigationLink(
+                            destination: DetailView(activity: activity, repository: repository)
+                        ) {
                             VStack() {
                                 Text(activity.image)
                                     .frame(width: 50, height: 50)
